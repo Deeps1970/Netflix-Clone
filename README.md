@@ -7,6 +7,12 @@ This project is designed to practice layout design, background images, and styli
 
 ---
 
+## 🌐 Live Demo
+
+- [Click Here to See Live Demo!](https://deeps1970.github.io/Netflix-Clone/)
+
+---
+
 ## 💡 Features
 
 - 🎞️ Full-screen background with movie grid visuals

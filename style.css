@@ -1,0 +1,324 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.main-bg{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+#im1{
+    width: 100%;
+    height: 100%;
+    filter: brightness(15%);
+    -webkit-filter: brightness(15%);
+}
+
+.main-logo img{
+    width: 200px;
+    position: absolute;
+    top: 10px;
+    left: 100px;
+}
+
+.frontpage-cont{
+    color: white;
+    position: absolute;
+    top: 150px;
+    width: 50vw;
+    left: 25vw;
+    right: 25vw;
+    text-align: center;
+    font-size: large;
+}
+
+.mail-box{
+    position: absolute;
+    top: 400px;
+    left: 25vw;
+    right: 25vw;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mail-box input{
+    background-color: rgba(24, 24, 24, 0.7);
+    height: 50px;
+    width: 350px;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    border: rgb(126, 126, 126) 1.5px solid;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.mail-box button {
+    background-color: rgba(255, 0, 0, 0.849);
+    height: 54px;
+    width: 200px;
+    color: white;
+    font-size: x-large;
+    border: rgb(255, 0, 0) 1.5px solid;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.mail-box button:hover{
+    background-color: rgb(180, 23, 23);
+    transition: ease-in 0.15s;
+    -webkit-transition: ease-in 0.15s;
+    -moz-transition: ease-in 0.15s;
+    -ms-transition: ease-in 0.15s;
+    -o-transition: ease-in 0.15s;
+}
+
+.Choose-Lang {
+    position: absolute;
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 50px;
+    right: 150px;
+}
+
+.Choose-Lang select {
+    background-color: rgba(24, 24, 24, 0.7);
+    height: 30px;
+    width: 100px;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    border: rgb(126, 126, 126) 1.5px solid;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.Choose-Lang button {
+    background-color: rgba(255, 0, 0, 0.849);
+    height: 30px;
+    width: 85px;
+    color: white;
+    font-size: medium;
+    border: rgb(255, 0, 0) 1.5px solid;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.main-bg2 {
+    background-color: black;
+    color: white;
+    width: 100vw;
+    height: 70vh;
+    position: relative;
+}
+
+.bg2-text {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+} 
+
+.bg2-text p {
+    color: rgb(211, 209, 209);
+    font-size: x-large;
+}
+
+.bg2-text button {
+    background-color: rgba(255, 0, 0, 0.849);
+    height: 54px;
+    width: 200px;
+    color: white;
+    font-size: x-large;
+    border: rgb(255, 0, 0) 1.5px solid;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.bg2-text button:hover{
+    background-color: rgb(180, 23, 23);
+    transition: ease-in 0.15s;
+    -webkit-transition: ease-in 0.15s;
+    -moz-transition: ease-in 0.15s;
+    -ms-transition: ease-in 0.15s;
+    -o-transition: ease-in 0.15s;
+}
+
+.platform-img img {
+    width: 50vw;
+    position: absolute;
+    top: 30px;
+    left:600px;
+}
+
+.contact-us {
+    background-color: rgb(34, 34, 34);
+    color: white;
+    width: 100vw;
+    height: 60vh;
+    position: relative;
+}
+
+.company-details{
+    position: relative;
+    width: 20vw;
+    left: 150px;
+    top: 50px;
+}
+
+.company-details img {
+    width: 15vw;
+    position: absolute;
+}
+
+.company-details p {
+    position: absolute;
+    font-size: large;
+    color: rgb(211, 209, 209);
+    width: 15vw;
+    top: 80px;
+    left: 20px;
+}
+
+.links {
+    position: absolute;
+    width: 20vw;
+    left: 550px;
+    top: 50px;
+    font-size: x-large;
+    text-align: center;
+}
+
+.links ul li {
+    text-decoration: none;
+    text-align: left;
+    list-style-type: none;
+    padding: 8px;
+}
+
+.policy {
+    position: absolute;
+    width: 20vw;
+    left: 950px;
+    top: 50px;
+    font-size: x-large;
+    text-align: center;
+}
+
+.policy ul li {
+    text-decoration: none;
+    text-align: left;
+    list-style-type: none;
+    padding: 8px;
+}
+
+.signin-container {
+    background-color: black;
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    top: 100px;
+    left: 35%;
+    color: white;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.signin-container p {
+    color: white;
+    margin: 20px;
+    padding: 20px;
+    font-size: xx-large;
+}
+
+.signin-container input{
+    width: 300px;
+    height: 40px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.signin-container a{
+    margin-top: 30px;
+    color: white;
+}
+
+.fp{
+    margin-left: 40px;
+}
+
+.signin-container button{
+    background-color: rgba(255, 0, 0, 0.849);
+    height: 50px;
+    width: 320px;
+    color: white;
+    font-size: x-large;
+    margin-left: 35px;
+    margin-top: 10px;
+    border: rgb(255, 0, 0) 1.5px solid;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.signin-container button:hover{
+    background-color: rgb(180, 23, 23);
+    transition: ease-in 0.15s;
+    -webkit-transition: ease-in 0.15s;
+    -moz-transition: ease-in 0.15s;
+    -ms-transition: ease-in 0.15s;
+    -o-transition: ease-in 0.15s;
+}
+
+.signin-container h5{
+    text-align: center;
+    margin-left: 15px;
+    font-size: medium;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: rgb(34, 34, 34);
+    padding: 20px;
+
+}
+
+.social-media a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.social-media a:hover {
+    background-color:red ;
+    transform: scale(1.1);
+}
